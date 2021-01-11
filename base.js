@@ -26,15 +26,14 @@ module.exports = {
             'error',
             {
                 code: 120,
+                ignoreTrailingComments: true,
+                ignoreUrls: true,
             },
         ],
         'no-restricted-syntax': [
             'error',
-            'FunctionExpression',
             'ForInStatement',
             'LabeledStatement',
-            'VariableDeclaration',
-            'VariableDeclarator',
             'WithStatement',
         ],
     },
