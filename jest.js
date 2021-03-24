@@ -5,6 +5,6 @@ module.exports = {
     extends: [
         'plugin:jest/all',
     ],
-    rules: {},
     plugins: [],
+    rules: {},
 };

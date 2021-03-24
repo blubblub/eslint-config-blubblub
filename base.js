@@ -1,5 +1,9 @@
 module.exports = {
     rules: {
+        'arrow-parens': [
+            'error',
+            'as-needed',
+        ],
         indent: [
             'error',
             4,
@@ -7,20 +11,6 @@ module.exports = {
         'linebreak-style': [
             'error',
             'unix',
-        ],
-        'arrow-parens': [
-            'error',
-            'as-needed',
-        ],
-        'space-before-function-paren': [
-            'error',
-            'always',
-        ],
-        'unicorn/filename-case': [
-            'error',
-            {
-                case: 'camelCase',
-            },
         ],
         'max-len': [
             'error',
@@ -35,6 +25,17 @@ module.exports = {
             'ForInStatement',
             'LabeledStatement',
             'WithStatement',
+        ],
+        'sort-keys-fix/sort-keys-fix': 2,
+        'space-before-function-paren': [
+            'error',
+            'always',
+        ],
+        'unicorn/filename-case': [
+            'error',
+            {
+                case: 'camelCase',
+            },
         ],
     },
 };

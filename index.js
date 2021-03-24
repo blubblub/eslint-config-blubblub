@@ -3,9 +3,6 @@ module.exports = {
         commonjs: true,
         es2021: true,
     },
-    parserOptions: {
-        ecmaVersion: 12,
-    },
     extends: [
         'eslint:recommended',
         'airbnb-base',
@@ -16,8 +13,11 @@ module.exports = {
         './base.js',
         './jest.js',
     ],
-    rules: {},
+    parserOptions: {
+        ecmaVersion: 12,
+    },
     plugins: [
         'sort-keys-fix',
     ],
+    rules: {},
 };
