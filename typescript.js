@@ -9,8 +9,21 @@ module.exports = {
         'import',
         'simple-import-sort',
     ],
+    rules: {
+        'node/no-unsupported-features/es-syntax': [
+            'error',
+            {
+                ignores: [
+                    'modules',
+                ],
+            },
+        ],
+    },
     settings: {
         'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.ts', '.tsx'],
+            },
             typescript: {},
         },
     },
