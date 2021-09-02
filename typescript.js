@@ -1,5 +1,6 @@
 module.exports = {
     extends: [
+        'airbnb-typescript/base',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
     ],
@@ -10,6 +11,12 @@ module.exports = {
         'simple-import-sort',
     ],
     rules: {
+        'node/no-missing-import': [
+            'error',
+            {
+                tryExtensions: ['.js', '.json', '.node', '.ts'],
+            },
+        ],
         'node/no-unsupported-features/es-syntax': [
             'error',
             {
