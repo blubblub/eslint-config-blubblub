@@ -39,6 +39,5 @@ module.exports = {
                 case: 'camelCase',
             },
         ],
-        'unicorn/prefer-module': 0,
     },
 };

@@ -44,7 +44,10 @@
     "eslint": "^7.17.0"
   },
   "eslintConfig": {
-    "extends": "./index.js"
+    "extends": "./index.js",
+    "rules": {
+      "unicorn/prefer-module": 0
+    }
   },
   "eslintIgnore": [
     "node_modules",
