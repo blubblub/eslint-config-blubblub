@@ -16,6 +16,8 @@ module.exports = {
             'error',
             {
                 code: 120,
+                ignoreStrings: true,
+                ignoreTemplateLiterals: true,
                 ignoreTrailingComments: true,
                 ignoreUrls: true,
             },
@@ -37,5 +39,6 @@ module.exports = {
                 case: 'camelCase',
             },
         ],
+        'unicorn/prefer-module': 0,
     },
 };

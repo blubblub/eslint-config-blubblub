@@ -11,10 +11,9 @@ module.exports = {
         'plugin:unicorn/recommended',
         'plugin:promise/recommended',
         './base.js',
-        './jest.js',
     ],
     parserOptions: {
-        ecmaVersion: 12,
+        ecmaVersion: 2021,
     },
     plugins: [
         'sort-keys-fix',
