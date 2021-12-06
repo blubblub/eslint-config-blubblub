@@ -20,8 +20,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Checkout submodules
-        uses: textbook/git-checkout-submodule-action@master
+        with:
+          submodules: recursive
       - name: Use Node.js - ${{ matrix.node }}
         uses: actions/setup-node@v1
         with:
