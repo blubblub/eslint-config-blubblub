@@ -1,6 +1,6 @@
 {
   "name": "@blubblubinc/eslint-config-blubblub-base",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "ESLint configuration of Blub Blub Inc. JS projects",
   "main": "index.js",
   "author": "Blub Blub Inc.",
