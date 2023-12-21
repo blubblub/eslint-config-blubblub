@@ -1,6 +1,6 @@
 {
   "name": "@blubblubinc/eslint-config-blubblub-base",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "ESLint configuration of Blub Blub Inc. JS projects",
   "main": "index.js",
   "author": "Blub Blub Inc.",
@@ -36,7 +36,8 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-plugin-unicorn": "^42.0.0"
+    "eslint-plugin-unicorn": "^42.0.0",
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "check-dependencies": "^1.1.0",
